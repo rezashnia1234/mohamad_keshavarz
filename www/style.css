@@ -298,6 +298,24 @@ background-size: auto 40%;
 background-repeat: no-repeat;
 background-position: 10px 50%;
 }
+.link-icon{
+background:url(images/icons/white/link.png);
+background-size: auto 40%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+}
+.logo-icon{
+background:url(images/icons/white/logo.png);
+background-size: auto 53%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+}
+.lists-icon{
+background:url(images/icons/white/lists.png);
+background-size: auto 47%;
+background-repeat: no-repeat;
+background-position: 10px 50%;
+}
 .download-icon{
 background:url(images/icons/white/download.png);
 background-size: auto 40%;
@@ -1114,9 +1132,9 @@ height: 50px;
 height: 100%;
 }
 .swiper-slide span{
-margin:70px 0 10px 0;
-font-size:48px;
-line-height:50px;
+margin:28px 0 0px 0px;
+font-size:28px;
+line-height:28px;
 } 
 .swiper-slide span.subtitle{
 margin:0px 0 10px 0;

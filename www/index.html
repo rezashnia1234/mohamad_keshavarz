@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="css/fontiran.css">
 <link rel="stylesheet" href="style.css">
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'> -->
+<link rel="stylesheet" href="css/custom.css">
 </head>
 <body id="mobile_wrap">
 
@@ -23,13 +24,11 @@
     <div class="panel panel-left panel-cover">
               <nav class="list-nav">
                 <ul>
-                  <li class="home-icon"><a href="index.html" class="close-panel">Home</a></li>
-                  <li class="about-icon"><a href="about.html" class="close-panel">About</a></li>
-                  <li class="features-icon"><a href="features.html" class="close-panel">Features</a></li>
-                  <li class="photos-icon"><a href="photos.html" class="close-panel">Gallery</a></li>
-                  <li class="video-icon"><a href="videos.html" class="close-panel">Videos</a></li>
-                  <li class="blog-icon"><a href="blog.html" class="close-panel">Blog</a></li>
-                  <li class="contact-icon"><a href="contact.html" class="close-panel">Contact</a></li>
+                  <li class="home-icon"><a href="index.html" class="close-panel">صفحه اول</a></li>
+                  <li class="logo-icon"><a href="article/anjoman.html" class="close-panel">معرفی انجام</a></li>
+                  <li class="lists-icon"><a href="hamayesh.html" class="close-panel">درباره همایش</a></li>
+                  <li class="link-icon"><a href="link.html" class="close-panel">پیوندها</a></li>
+                  <li class="envelope-icon"><a href="contact.html" class="close-panel">تماس با ما</a></li>
                 </ul>
               </nav>  
     </div>
@@ -58,7 +57,7 @@
 
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="left sliding"><div class="logo_title">minio</div></div>
+            <div class="left sliding"><div class="logo_title"><a href="article/anjoman.html"><img src="images/logo.svg" style="width: 30px;margin-top: 16px;"></a></div></div>
             <div class="right menu_open_icon"><a href="#" data-panel="left" class="link icon-only open-panel"></a></div>
           </div>
         </div>
@@ -73,17 +72,21 @@
                     <div class="swiper-wrapper">
                     
                       <div class="swiper-slide">
-                          <span>THE <br /> CREATIVE</span>
-                          <span class="subtitle">mobile app solution</span>
-                          <a href="about.html" class="swiper_read_more">swipe to see more</a>                      </div>
+                          <span class="subtitle" style="margin-top:150px;">چهارمین همایش ملی</span>
+                          <span style="display:block;">پژوهش اجتماعی و فرهنگی</span>
+                          <span >در جامعه ایران</span>
+                          <a href="hamayesh.html" class="swiper_read_more">درباره همایش</a>
+					  </div>
                       <div class="swiper-slide">
-                          <span>WITH <br />BEAUTIFUL</span>
-                          <span class="subtitle">multipurpose designs</span>
-                          <a href="features.html" class="swiper_read_more">see all features</a>                      </div>
+                          <img src="images/logos.png" style="width: 80%;margin-top: 40px;padding:  20px;background-color: rgb(255, 252, 228);border-radius: 15px;">
+					  </div>
+					  <!--
                       <div class="swiper-slide">
                           <span>READY <br /> FOR APPS</span>
                           <span class="subtitle">web and native</span>
-                          <a href="#" class="swiper_read_more open-panel">start navigating</a>                      </div>
+                          <a href="#" class="swiper_read_more open-panel">start navigating</a>
+					  </div>
+					  -->
                     </div>
                     <div class="swiper-pagination"></div>
                   </div>
@@ -94,10 +97,10 @@
         <div class="toolbar">
               <div class="toolbar-inner">
               <ul class="toolbar_icons icons_4row">
-              <li><a href="#" data-popup=".popup-login" class="open-popup"><img src="images/icons/white/user.png" alt="" title="" /></a></li>
-              <li><a href="features.html"><img src="images/icons/white/settings.png" alt="" title="" /></a></li>
-              <li><a href="photos.html"><img src="images/icons/white/photos.png" alt="" title="" /></a></li>
-              <li><a href="#" data-popup=".popup-social" class="open-popup"><img src="images/icons/white/heart.png" alt="" title="" /></a></li>
+              <li><a href="contact.html" ><img src="images/icons/white/envelope.png" alt="" title="" /></a></li>
+              <li><a href="link.html"><img src="images/icons/white/link.png" alt="" title="" style="margin-bottom: -3px;" /></a></li>
+              <li><a href="hamayesh.html"><img src="images/icons/white/lists.png" alt="" title="" /></a></li>
+              <li><a href="article/anjoman.html"><img src="images/icons/white/logo.png" alt="" title="" style="margin-bottom: -4px;" /></a></li>
               </ul>
               </div>  
         </div>
@@ -107,6 +110,7 @@
     </div>
     
     <!-- About Popup -->
+	<!--
     <div class="popup popup-login">
     <div class="content-block">
       <h4>Login</h4>
@@ -122,7 +126,9 @@
       <div class="close_popup_button_gray"><a href="#" class="close-popup">Close</a></div>
     </div>
     </div>
+	-->
     <!-- Services Popup -->
+	<!--
     <div class="popup popup-social">
     <div class="content-block">
       <h4>Social Share</h4>
@@ -138,7 +144,7 @@
       <div class="close_popup_button"><a href="#" class="close-popup">Close</a></div>
     </div>
     </div>
-    
+    -->
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 <script src="js/jquery.validate.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/framework7.min.js"></script>

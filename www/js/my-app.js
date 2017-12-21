@@ -18,6 +18,8 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: false,
 });
 $$(document).on('pageInit', function (e) {
+		// setTimeout(function(){$('.thisone').click();}, 2000);
+		
   		$(".swipebox").swipebox();
 		$(".videocontainer").fitVids();
 		
@@ -149,6 +151,5 @@ $$(document).on('pageInit', function (e) {
 		}, false);
 	};
 	
-		
-		
+
 })

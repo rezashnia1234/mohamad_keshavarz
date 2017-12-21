@@ -1,0 +1,124 @@
+﻿.post_single {
+    border-bottom: 0px #ddd solid;
+}
+#pages_maincontent p {
+    direction: rtl;
+    text-align: justify;
+}
+h2.page_subtitle {
+    direction: rtl;
+    letter-spacing: 0;
+    text-align: justify;
+    width: 100%;
+}
+.navbar_page_center {
+    line-height: 63px;
+}
+.post_thumb {
+    width: 20%;
+    float: right;
+}
+.post_details {
+    width: 70%;
+    float: right;
+    margin: 0 5% 0 0;
+}
+.post_swipe {
+    float: left;
+}
+.post_details h2 {
+    direction: rtl;
+    width: 100%;
+    text-align: right;
+}
+.post_swipe img {
+    transform: rotate(180deg);
+    padding: 0 0 50px 0;
+}
+.swiper-pagination-bullet{background-color:#ffffff;}
+blockquote {
+    border-right: 5px #0c928d solid;
+    border-left: 0px #0c928d solid;
+    padding: 0 20px 0 0px;
+    margin: 10px 0 20px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+	direction:rtl;
+	text-align:right;
+}
+i.icon.icon-plus {
+    position: relative;
+    line-height: 32px;
+}
+i.icon.icon-minus {
+    position: relative;
+    line-height: 30px;
+    font-size: 40px;
+    width: 25px;
+    height: 25px;
+}
+.custom-accordion {
+    direction: rtl;
+}
+.custom-accordion .accordion-item-toggle span {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 0;
+}
+.page_single ul.simple_list li {
+    margin: 0 0 10px 0;
+    padding: 0 20px 0 0;
+    background: url(../images/bullet.png) no-repeat right;
+}
+ul.features_list_detailed li .feat_small_icon {
+    width: 15%;
+    float: right;
+}
+ul.features_list_detailed li .feat_small_details {
+    width: 82%;
+    float: right;
+    padding: 0 3% 0 0;
+    direction: rtl;
+    text-align: right;
+}
+ul.features_list li span {
+    direction: rtl;
+    float: right;
+    padding: 5px 10px 0 0;
+}
+
+
+
+ul.ahdaf {
+	list-style: disc;
+	direction: rtl;
+	text-align:right;
+	margin-right: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
