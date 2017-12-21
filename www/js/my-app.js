@@ -5,6 +5,7 @@ var myApp = new Framework7({
     precompileTemplates: true,
     // Enabled pages rendering using Template7
 	swipeBackPage: true,
+	
 	pushState: true,
     template7Pages: true
 });
