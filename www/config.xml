@@ -167,7 +167,7 @@
 	
 	<access origin="*"/> <!-- allow local pages -->
 	<allow-navigation href="*" />
-	
+
 	
 
 </widget>
