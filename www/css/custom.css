@@ -96,7 +96,16 @@ ul.ahdaf {
 	text-align:right;
 	margin-right: 19px;
 }
-
+span.button_small {
+    background-color: #0c928d;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
 
 
