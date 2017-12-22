@@ -154,3 +154,9 @@ $$(document).on('pageInit', function (e) {
 	
 
 })
+
+function loadURL(url){
+	console.log('SMGROUP ::::::::::::::::::::::::::::::::::::    loadURL click : ' + url);
+	window.open(url, '_system', 'location=yes');
+	return false;
+}
